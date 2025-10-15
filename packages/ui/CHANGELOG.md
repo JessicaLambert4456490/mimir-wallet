@@ -1,5 +1,39 @@
 # Changelog
 
+## [3.0.0](https://github.com/JessicaLambert4456490/mimir-wallet/compare/ui-v2.32.0...ui-v3.0.0) (2025-10-15)
+
+
+### Features
+
+* add ai assistant for mimir ([#319](https://github.com/JessicaLambert4456490/mimir-wallet/issues/319)) ([da9d873](https://github.com/JessicaLambert4456490/mimir-wallet/commit/da9d8738ad1e90e1fed1f93c8e77c7e52d3dbb6d))
+* Add cross-chain calldata display component ([#291](https://github.com/JessicaLambert4456490/mimir-wallet/issues/291)) ([9b94855](https://github.com/JessicaLambert4456490/mimir-wallet/commit/9b94855f160ca18bdf3de2c12a62931357a6d427))
+* Add cross-chain simulation support with XCM integration ([#285](https://github.com/JessicaLambert4456490/mimir-wallet/issues/285)) ([e96a67f](https://github.com/JessicaLambert4456490/mimir-wallet/commit/e96a67fef239d678b182d98c386e7e93d2b68106))
+* Add dry run API support for transaction simulation ([#207](https://github.com/JessicaLambert4456490/mimir-wallet/issues/207)) ([bc50379](https://github.com/JessicaLambert4456490/mimir-wallet/commit/bc50379f05874ecaf95367be472c3d7f0a380710))
+* add global account search and refactor UI components ([#167](https://github.com/JessicaLambert4456490/mimir-wallet/issues/167)) ([68ee7c2](https://github.com/JessicaLambert4456490/mimir-wallet/commit/68ee7c2953806e0c34864ac954f4d270f2f4ab60))
+* Add notification center feature ([#282](https://github.com/JessicaLambert4456490/mimir-wallet/issues/282)) ([0f9aa78](https://github.com/JessicaLambert4456490/mimir-wallet/commit/0f9aa78f539e38fca519cb65c46697e9bba071cd))
+* add permission check when submit transaction ([#164](https://github.com/JessicaLambert4456490/mimir-wallet/issues/164)) ([eb1ae4c](https://github.com/JessicaLambert4456490/mimir-wallet/commit/eb1ae4c824e18b8215cc8bf842cd23f585df2dc6))
+* Add proposer management for multisig members and enable propose transaction submission ([#171](https://github.com/JessicaLambert4456490/mimir-wallet/issues/171)) ([96dae00](https://github.com/JessicaLambert4456490/mimir-wallet/commit/96dae00b2def0013f4b1a40bffe7c5dee6af0dc5))
+* Add sonner to replace react-toastify ([#280](https://github.com/JessicaLambert4456490/mimir-wallet/issues/280)) ([0fadc6f](https://github.com/JessicaLambert4456490/mimir-wallet/commit/0fadc6f9eb0039b17ad74f60f0e2ae7b31d64841))
+* add template detail view functionality ([#174](https://github.com/JessicaLambert4456490/mimir-wallet/issues/174)) ([732da74](https://github.com/JessicaLambert4456490/mimir-wallet/commit/732da7499a6dd09d3c0858785396a157d91e6d57))
+* Add zkVerify testnet supported ([#251](https://github.com/JessicaLambert4456490/mimir-wallet/issues/251)) ([db63b5e](https://github.com/JessicaLambert4456490/mimir-wallet/commit/db63b5e133653fb51a8d184891a743107cc7a1bc))
+* allow adding lower permission proxies when higher permission proxies exist ([#215](https://github.com/JessicaLambert4456490/mimir-wallet/issues/215)) ([b67278a](https://github.com/JessicaLambert4456490/mimir-wallet/commit/b67278a662c7cb0642ec4f3d7bdf71c50cf21139))
+* Fee payment with any sufficient asset on AssetHub ([#254](https://github.com/JessicaLambert4456490/mimir-wallet/issues/254)) ([01a4585](https://github.com/JessicaLambert4456490/mimir-wallet/commit/01a4585348cacc4644ccbe88fed2ea24230eaf4c))
+* implement AssetHub migration support ([#259](https://github.com/JessicaLambert4456490/mimir-wallet/issues/259)) ([5c8a024](https://github.com/JessicaLambert4456490/mimir-wallet/commit/5c8a024cb3917a71cba9f0e88d82981856871277))
+* Improve UI display and user experience ([#218](https://github.com/JessicaLambert4456490/mimir-wallet/issues/218)) ([18f6e24](https://github.com/JessicaLambert4456490/mimir-wallet/commit/18f6e24a64e75d476a74d3179b7a8ba5edd87e36))
+* migrate some ui components to shadcn ([#278](https://github.com/JessicaLambert4456490/mimir-wallet/issues/278)) ([9e955d7](https://github.com/JessicaLambert4456490/mimir-wallet/commit/9e955d7f97188b49dbcd57028457773e400f4834))
+* refactor home UI and add assets,analytic pages ([#270](https://github.com/JessicaLambert4456490/mimir-wallet/issues/270)) ([9a82c4e](https://github.com/JessicaLambert4456490/mimir-wallet/commit/9a82c4e58fb31432a53c8518d10bfcf7622d1175))
+* Refactor sidebar system with modular architecture and ShadCN integration ([#293](https://github.com/JessicaLambert4456490/mimir-wallet/issues/293)) ([8ac4f90](https://github.com/JessicaLambert4456490/mimir-wallet/commit/8ac4f90d20a4c0c5793e03bdd9cf5efe55c6659c))
+* remove assethub next westend network ([#232](https://github.com/JessicaLambert4456490/mimir-wallet/issues/232)) ([ae2665f](https://github.com/JessicaLambert4456490/mimir-wallet/commit/ae2665fb36280bd0b731ddaabf3d4526fc0a8e0e))
+* **structure:** initialize monorepo with turborepo, and begin migration from MUI to Hero UI ([#162](https://github.com/JessicaLambert4456490/mimir-wallet/issues/162)) ([ba27b2f](https://github.com/JessicaLambert4456490/mimir-wallet/commit/ba27b2fda91363c91d55c1d1794e8f5f67755a4b))
+* **ui:** enhance transaction components and improve user experience ([#261](https://github.com/JessicaLambert4456490/mimir-wallet/issues/261)) ([277929f](https://github.com/JessicaLambert4456490/mimir-wallet/commit/277929f42d9e8e22ce5a3870287a60fe3cb3a006))
+
+
+### Bug Fixes
+
+* fix some ui issues ([ee20b36](https://github.com/JessicaLambert4456490/mimir-wallet/commit/ee20b363fa5bf2f47cf900d9c1299cd105132846))
+* Fix some UI issues ([#257](https://github.com/JessicaLambert4456490/mimir-wallet/issues/257)) ([b1c503d](https://github.com/JessicaLambert4456490/mimir-wallet/commit/b1c503dc3426aa7a6c309bc41d1f971a3fade281))
+* Remove duplicate dirty data in transaction approval ([#165](https://github.com/JessicaLambert4456490/mimir-wallet/issues/165)) ([9ae36d3](https://github.com/JessicaLambert4456490/mimir-wallet/commit/9ae36d3974be2c305b98e394c472edf25e165085))
+
 ## [2.32.0](https://github.com/mimir-labs/mimir-wallet/compare/ui-v2.31.0...ui-v2.32.0) (2025-10-14)
 
 

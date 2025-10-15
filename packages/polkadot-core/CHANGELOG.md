@@ -1,5 +1,54 @@
 # Changelog
 
+## [3.0.0](https://github.com/JessicaLambert4456490/mimir-wallet/compare/polkadot-core-v2.32.0...polkadot-core-v3.0.0) (2025-10-15)
+
+
+### Features
+
+* Add Acurast Canary network support ([#323](https://github.com/JessicaLambert4456490/mimir-wallet/issues/323)) ([89537e0](https://github.com/JessicaLambert4456490/mimir-wallet/commit/89537e0f964d527536db4d63155d25ab4895bda6))
+* Add astar network support ([#230](https://github.com/JessicaLambert4456490/mimir-wallet/issues/230)) ([6f53263](https://github.com/JessicaLambert4456490/mimir-wallet/commit/6f53263535def4f6aee00e1f208d61b91d280e9e))
+* Add cross-chain calldata display component ([#291](https://github.com/JessicaLambert4456490/mimir-wallet/issues/291)) ([9b94855](https://github.com/JessicaLambert4456490/mimir-wallet/commit/9b94855f160ca18bdf3de2c12a62931357a6d427))
+* Add cross-chain simulation support with XCM integration ([#285](https://github.com/JessicaLambert4456490/mimir-wallet/issues/285)) ([e96a67f](https://github.com/JessicaLambert4456490/mimir-wallet/commit/e96a67fef239d678b182d98c386e7e93d2b68106))
+* Add dry run API support for transaction simulation ([#207](https://github.com/JessicaLambert4456490/mimir-wallet/issues/207)) ([bc50379](https://github.com/JessicaLambert4456490/mimir-wallet/commit/bc50379f05874ecaf95367be472c3d7f0a380710))
+* Add ErrorBoundary for submit transaction ([#309](https://github.com/JessicaLambert4456490/mimir-wallet/issues/309)) ([7e33832](https://github.com/JessicaLambert4456490/mimir-wallet/commit/7e3383211688c7a161e978688aec9f1449723344))
+* Add moonbeam and tanssi network support ([#327](https://github.com/JessicaLambert4456490/mimir-wallet/issues/327)) ([e7437d7](https://github.com/JessicaLambert4456490/mimir-wallet/commit/e7437d79dae06cb043d5314f29346288a8930077))
+* Add notification center feature ([#282](https://github.com/JessicaLambert4456490/mimir-wallet/issues/282)) ([0f9aa78](https://github.com/JessicaLambert4456490/mimir-wallet/commit/0f9aa78f539e38fca519cb65c46697e9bba071cd))
+* Add PAssetHub network support ([#239](https://github.com/JessicaLambert4456490/mimir-wallet/issues/239)) ([fb54320](https://github.com/JessicaLambert4456490/mimir-wallet/commit/fb54320afb9a5aa7f15abecfd206105ad94d3e02))
+* add relay chain auto-dependency for all parachains ([#321](https://github.com/JessicaLambert4456490/mimir-wallet/issues/321)) ([3fd218d](https://github.com/JessicaLambert4456490/mimir-wallet/commit/3fd218d509e1df8056e4e0958ef49ceca1afc8b6))
+* Add remote proxy support ([#236](https://github.com/JessicaLambert4456490/mimir-wallet/issues/236)) ([d36ef7a](https://github.com/JessicaLambert4456490/mimir-wallet/commit/d36ef7a4c12fb9a4068802d29f34030d0da30d00))
+* Add walletconnect in dapp page ([#217](https://github.com/JessicaLambert4456490/mimir-wallet/issues/217)) ([65a7685](https://github.com/JessicaLambert4456490/mimir-wallet/commit/65a768578859e361d2edbc172dfff2f54d3027d8))
+* Add xcavate network support ([#237](https://github.com/JessicaLambert4456490/mimir-wallet/issues/237)) ([f3e74fb](https://github.com/JessicaLambert4456490/mimir-wallet/commit/f3e74fb87415b54537fab17597948a972bb8ba4f))
+* Add zkverify mainnet support ([#312](https://github.com/JessicaLambert4456490/mimir-wallet/issues/312)) ([942b5cb](https://github.com/JessicaLambert4456490/mimir-wallet/commit/942b5cb25f64fb4ae36f2a4528141ac720372934))
+* Add zkVerify testnet supported ([#251](https://github.com/JessicaLambert4456490/mimir-wallet/issues/251)) ([db63b5e](https://github.com/JessicaLambert4456490/mimir-wallet/commit/db63b5e133653fb51a8d184891a743107cc7a1bc))
+* Fee payment with any sufficient asset on AssetHub ([#254](https://github.com/JessicaLambert4456490/mimir-wallet/issues/254)) ([01a4585](https://github.com/JessicaLambert4456490/mimir-wallet/commit/01a4585348cacc4644ccbe88fed2ea24230eaf4c))
+* Improve UI display and user experience ([#218](https://github.com/JessicaLambert4456490/mimir-wallet/issues/218)) ([18f6e24](https://github.com/JessicaLambert4456490/mimir-wallet/commit/18f6e24a64e75d476a74d3179b7a8ba5edd87e36))
+* Optimize balance retrieval logic ([#311](https://github.com/JessicaLambert4456490/mimir-wallet/issues/311)) ([a10c6ac](https://github.com/JessicaLambert4456490/mimir-wallet/commit/a10c6ac9e18cfba565851e66e904b47a8f08f39d))
+* optimize rpc connection and improve network stability ([#193](https://github.com/JessicaLambert4456490/mimir-wallet/issues/193)) ([4888bf7](https://github.com/JessicaLambert4456490/mimir-wallet/commit/4888bf7db1bc7c0c30cba69777bb6ac79dccaf52))
+* remove assethub next westend network ([#232](https://github.com/JessicaLambert4456490/mimir-wallet/issues/232)) ([ae2665f](https://github.com/JessicaLambert4456490/mimir-wallet/commit/ae2665fb36280bd0b731ddaabf3d4526fc0a8e0e))
+* subscribe wallet accounts changed ([#176](https://github.com/JessicaLambert4456490/mimir-wallet/issues/176)) ([134f878](https://github.com/JessicaLambert4456490/mimir-wallet/commit/134f878cb4e9323428d194ce5cdc991c2a6edf72))
+* Support eth address transfer on westend ([#234](https://github.com/JessicaLambert4456490/mimir-wallet/issues/234)) ([3b62828](https://github.com/JessicaLambert4456490/mimir-wallet/commit/3b62828fd2b2ea437374595a6fbf120007d70df7))
+* support eth address trasfer on westend assethub ([#224](https://github.com/JessicaLambert4456490/mimir-wallet/issues/224)) ([127d79e](https://github.com/JessicaLambert4456490/mimir-wallet/commit/127d79ed2f39a7e376114f524d9e585581dd59da))
+* **ui:** enhance transaction components and improve user experience ([#261](https://github.com/JessicaLambert4456490/mimir-wallet/issues/261)) ([277929f](https://github.com/JessicaLambert4456490/mimir-wallet/commit/277929f42d9e8e22ce5a3870287a60fe3cb3a006))
+* **ui:** refactor add proxy UX with responsive design and step wizard ([#268](https://github.com/JessicaLambert4456490/mimir-wallet/issues/268)) ([c76da96](https://github.com/JessicaLambert4456490/mimir-wallet/commit/c76da96fb156153821b8e7c423d47fcf71a2c104))
+* **ui:** refactor create multisig UX with responsive design and step wizard ([#267](https://github.com/JessicaLambert4456490/mimir-wallet/issues/267)) ([57010a0](https://github.com/JessicaLambert4456490/mimir-wallet/commit/57010a01c90d1e53bb1c90ac0679aa9dda191eb5))
+* Upgrade polkadotjs to 16.2.2 to support ExtrinsicV5 ([#247](https://github.com/JessicaLambert4456490/mimir-wallet/issues/247)) ([311ae91](https://github.com/JessicaLambert4456490/mimir-wallet/commit/311ae91bf20e10c45ef7e99201fff546e9eaf59a))
+
+
+### Bug Fixes
+
+* fix nexu hash calculation in polkadot-core tx module ([#178](https://github.com/JessicaLambert4456490/mimir-wallet/issues/178)) ([1a7e3cd](https://github.com/JessicaLambert4456490/mimir-wallet/commit/1a7e3cd338d79abe12c3eda1e18f7a578663820e))
+* Fix some issues while connect wallet ([#220](https://github.com/JessicaLambert4456490/mimir-wallet/issues/220)) ([f14051a](https://github.com/JessicaLambert4456490/mimir-wallet/commit/f14051ae0eff540bba8a9b295aa0245f58217fb6))
+* improve user experience and fix bugs ([#222](https://github.com/JessicaLambert4456490/mimir-wallet/issues/222)) ([1a0b460](https://github.com/JessicaLambert4456490/mimir-wallet/commit/1a0b46018c452aecfcd51092b95a6fb7ea0eadda))
+* optimize balance fetching performance ([#228](https://github.com/JessicaLambert4456490/mimir-wallet/issues/228)) ([cd4078e](https://github.com/JessicaLambert4456490/mimir-wallet/commit/cd4078eb2e93c9ce39193ba8ef58e94b453ac01e))
+* optimize user experience and fix some bugs ([#226](https://github.com/JessicaLambert4456490/mimir-wallet/issues/226)) ([73028e0](https://github.com/JessicaLambert4456490/mimir-wallet/commit/73028e05cffeba0f7aa4475a08dccd4b7b3dd0c6))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * @mimir-wallet/service bumped to 3.0.0
+
 ## [2.32.0](https://github.com/mimir-labs/mimir-wallet/compare/polkadot-core-v2.31.0...polkadot-core-v2.32.0) (2025-10-14)
 
 
